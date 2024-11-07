@@ -47,6 +47,3 @@ Once the dependencies are installed, you can start the dashboard with Streamlit:
 1. **Run the streamlit app**:
    ```bash
    streamlit run app.py
-
-
-
