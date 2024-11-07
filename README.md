@@ -1,23 +1,51 @@
-# Dashboard Penyewaan Sepeda
+# Bike Rental Dashboard
 
-Dashboard ini menyediakan visualisasi interaktif untuk data penyewaan sepeda pada tahun 2011 dan 2012. Pengguna dapat melihat data berdasarkan hari kerja atau hari libur, musim, jenis pengguna, dan lainnya.
+This is an interactive **Bike Rental Analysis Dashboard** built with **Streamlit** to visualize bike rental data over different years. The dashboard allows users to explore trends in bike rentals, make comparisons between 2011 and 2012, and view data related to weather, user types, and seasonal patterns.
 
-## Fitur Dashboard
-- Visualisasi data penyewaan sepeda berdasarkan tahun.
-- Visualisasi tren bulanan, harian, dan mingguan.
-- Filter data berdasarkan tahun yang dipilih (2011, 2012, atau 2011-2012).
-- Halaman Dataframe yang menampilkan data mentah beserta metadata.
+## Features
 
-## Persyaratan
-Pastikan Anda memiliki:
-- **Python** versi 3.7 atau lebih baru
-- Paket Python berikut:
-  - `streamlit`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
+- **Year Selection**: Choose from different years (2011, 2012) or view a comparison between 2011 and 2012.
+- **Interactive Visualizations**:
+  - **Bike Rental Trends**: Explore bike rental trends for each year.
+  - **Working Day vs Holiday Rentals**: Compare bike rentals on working days and holidays.
+  - **Seasonal Bike Rental Trends**: Understand rental patterns for each season.
+  - **Casual vs Registered Users**: Visualize bike rentals by user type (casual vs registered).
+  - **Hourly Bike Rental Trends**: View bike rentals across different hours of the day.
+  - **Weather-Based Rental Trends**: Examine bike rental data based on weather conditions.
+- **Data Display**: Option to view the underlying data in a table format with detailed metadata.
 
-Jika belum terpasang, instal paket yang diperlukan dengan menjalankan perintah berikut:
+## Installation
 
-```bash
-pip install streamlit pandas matplotlib seaborn
+Follow these steps to run the dashboard on your local machine.
+
+### Prerequisites
+
+- **Python 3.x**: Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
+- **Streamlit**: We use Streamlit to build the interactive dashboard.
+- **Required Libraries**: The libraries are listed in the `requirements.txt` file.
+
+### Installation Steps
+
+1. **Clone the repository** or download it as a ZIP file.
+   ```bash
+   git clone https://github.com/zzazzz/Belajar-Analisis-Data-dengan-Python.git
+   cd Belajar-Analisis-Data-dengan-Python.git
+
+2. **Create a virtual environment** (optional but recommended):
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+3. **Install requirements dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+### Running the Dashboard
+
+Once the dependencies are installed, you can start the dashboard with Streamlit:
+
+1. **Run the streamlit app**:
+   '''bash
+   streamlit run app.py
+
+
