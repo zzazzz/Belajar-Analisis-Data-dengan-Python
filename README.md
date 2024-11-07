@@ -36,7 +36,7 @@ Follow these steps to run the dashboard on your local machine.
    python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
 
-3. **Install requirements dependencies:
+3. **Install requirements dependencies**:
    ```bash
    pip install -r requirements.txt
 
@@ -45,7 +45,8 @@ Follow these steps to run the dashboard on your local machine.
 Once the dependencies are installed, you can start the dashboard with Streamlit:
 
 1. **Run the streamlit app**:
-   '''bash
+   ```bash
    streamlit run app.py
+
 
 
