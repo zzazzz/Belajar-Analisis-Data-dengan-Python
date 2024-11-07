@@ -18,13 +18,14 @@ This is an interactive **Bike Rental Analysis Dashboard** built with **Streamlit
 
 Follow these steps to run the dashboard on your local machine.
 
-### Prerequisites
+## Setup Environment
+Pastikan Anda memiliki:
+- **Python** versi 3.7 atau lebih baru
+  ```bash
+  conda create --name main-ds python=3.9
+  conda activate main-ds
 
-- **Python 3.x**: Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
-- **Streamlit**: We use Streamlit to build the interactive dashboard.
-- **Required Libraries**: The libraries are listed in the `requirements.txt` file.
-
-### Installation Steps
+### Project installation
 
 1. **Clone the repository** or download it as a ZIP file.
    ```bash
