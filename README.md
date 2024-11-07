@@ -47,3 +47,4 @@ Once the dependencies are installed, you can start the dashboard with Streamlit:
 1. **Run the streamlit app**:
    ```bash
    streamlit run app.py
+2. The dashboard will be available at http://localhost:8501 in your browser.
